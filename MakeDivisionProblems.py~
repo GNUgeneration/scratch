@@ -1,0 +1,12 @@
+import random
+
+def MakeProblem(Divisor, Dividend):
+    Di = 'Divisor: %d' % Divisor
+    De = 'Dividend: %d' % Dividend
+
+    return Di, De
+
+Divis = random.randint(100, 999)
+Divid = random.randint(100000, 999999999)
+
+print MakeProblem(Divis, Divid)
